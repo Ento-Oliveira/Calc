@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+body{
+    height: 100vh;
+}
+
+#bg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+p{    
+    text-align: center;
+}
+
+#display{
+    text-align: center;
+    pointer-events: none;
+}
+
+#iscreen{
+    width: 275px;
+    height: 75px;
+    margin: 25px auto 15px auto;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    text-shadow: 0 0 7px #ccc, 0 0 10px #ccc, 0 0 21px #ccc, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+    font-size: 4vw;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+    border-radius: 50%;
+    color: #196d51;
+    border: 3px solid #196d51;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    color: white;
+    background-color: #196d51;
+    filter: drop-shadow(0 0 5px #196d51) drop-shadow(0 0 15px #196d51) contrast(1) brightness(1);
+    transition: .5s;
+}
+
+.tst{
+    width: 115.5px;
+    height: 50px;
+}
+
+.error-message {
+    font-size: 10px; /* Defina o tamanho de fonte desejado */
+    color: red; /* Defina a cor desejada para as mensagens de erro */
+}
